@@ -1,0 +1,39 @@
+@font-face{
+    font-family: qwe;
+    font-weight: normal;
+    font-style: normal;
+    src: url("fonts/ComicoroRu_0.ttf");
+
+
+}
+
+
+body{
+    font-family: "qwe", Arial, Helvetica, sans-serif;
+}
+
+
+.d-flex{
+    display: flex;
+    justify-content:  space-around;
+    align-items: flex-end;
+}
+img{
+    width: 500px;
+}
+a{
+    display: inline;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: none;
+}
+.block{
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    display: inline-block;
+    border: 5px solid #f00;
+    border-radius: 125px;
+    background: url("images/kit.jpg");
+    background-size: cover;
+}

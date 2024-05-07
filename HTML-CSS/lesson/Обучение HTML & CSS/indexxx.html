@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>РЕГИСТРАЦИЯ</h1>
+    <form name='sing up' action='#' method='post'>
+        <div>
+            <label>Name:</label>
+            <input type='text' name='UserName' placeholder='Ice'/>
+        </div>
+        <div>
+            <label>E-mail:</label>
+            <input type='email' name='UserEmail' placeholder='33005700d@gmail.com'/>
+        
+        </div>
+        <div>
+            <label>Password:</label>
+            <input type='password' name='UserPassword' placeholder='33005700d'/>
+        
+        </div>
+        <div>
+            <label>Укажите пол:</label>
+            <input type='radio' name='UserSex' value='0'/>Мужской
+            <input type='radio' name='UserSex' value='1'/>Женский
+        </div>
+        <div>
+            <label>Я примаю соглашение</label>
+            <input type='checkbox' name='Rules'/>
+        </div>
+        <div>
+            <label>Загрузите фото:</label>
+            <input type='file' name='Avatar'/>
+        </div>
+        <div>
+            <label>Возвраст:</label>
+            <select name='year'>
+               <option value='17'>17</option>
+               <option value='18'>18</option>
+               <option value='19'>19</option>
+            </select>
+        </div>
+        <div>
+             <textarea placeholder='Ну как там в танках?'></textarea>
+        </div>
+        <input type='submit' name='singup' value='Зарегистрироваться'/>
+    </form>
+</body>
+</html>

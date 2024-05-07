@@ -1,0 +1,166 @@
+body {
+  background-color: rgb(213, 213, 213);
+}
+
+h1 {
+  color: black;
+  background-color: rgb(161, 161, 161);
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
+}
+
+.med {
+  border-radius: 3px;
+  margin: 30px;
+}
+
+#img {
+  margin-left: 30px;
+  border-radius: 30%;
+  border: 3px solid #707070;
+}
+
+.button {
+  display: inline-block; /* Строчно-блочный элемент */
+  background: #8c959d; /* Серый цвет фона */
+  color: #fff; /* Белый цвет текста */
+  border: 1px solid #707070;
+  padding: 1rem 1.5rem; /* Поля вокруг текста */
+  text-decoration: none; /* Убираем подчёркивание */
+  border-radius: 5px; /* Скругляем уголки */
+  margin-left: 145px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.brd1 {
+  background-color: #ffc1c1;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 10px;
+}
+
+.brd2 {
+  background-color: #f8ffbb;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 10px;
+}
+
+.brd3 {
+  background-color: #ffc27c;
+  border: 1px solid #707070;
+  border-radius: 10px;
+  padding: 3px;
+  margin: 10px;
+}
+
+.h3 {
+  background-color: #ffc27c;
+  border: 1px solid rgba(130, 130, 130, 0.994);
+  border-radius: 10px;
+  padding: 3px;
+  margin: 10px;
+}
+
+.h2 {
+  background-color: #f8ffbb;
+  border: 1px solid rgba(130, 130, 130, 0.994);
+  border-radius: 10px;
+  padding: 3px;
+  margin: 10px;
+}
+
+.h1 {
+  background-color: #ffc1c1;
+  border: 1px solid rgba(130, 130, 130, 0.994);
+  border-radius: 10px;
+  padding: 3px;
+  margin: 10px;
+}
+
+header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Cormorant Infant";
+  background-color: #8c959d;
+}
+
+nav {
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Cormorant Infant";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  padding-left: 10%;
+  padding-right: 10%;
+  position: relative;
+  gap: 25px;
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Cormorant Infant";
+  display: flex;
+  gap: 20px;
+  z-index: 10;
+}
+
+.logo-img {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Cormorant Infant";
+  width: 200px;
+}
+
+#bob {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Cormorant Infant";
+  width: 20%;
+}
+
+.img-link {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Cormorant Infant";
+  width: 100px;
+  height: 100px;
+  z-index: 3;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+#bob2 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Cormorant Infant";
+  width: 50px;
+}

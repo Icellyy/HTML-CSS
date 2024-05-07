@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(213, 213, 213);
+}
+
+h1 {
+  color: black;
+  background-color: rgb(161, 161, 161);
+  margin-left: 100px;
+  margin-right: 100px;
+  border-radius: 20px;
+}
+
+label {
+  margin-left: 45%;
+}
+
+img {
+  border-radius: 30%;
+  border: 2px solid #8c959d;
+  margin: 10px 10px 10px 280px;
+  width: 200px;
+}
+
+#namee {
+  margin-left: 45%;
+}
+
+#zakaz {
+  display: inline-block;
+  background: #6a7279;
+  color: rgba(187, 0, 25, 0.808);
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-left: 35%;
+  border-radius: 5px;
+  border: 0;
+}
+
+#reset {
+  display: inline-block;
+  background: #6a7279;
+  color: rgba(3, 0, 187, 0.808);
+  padding: 5px 10px;
+  text-decoration: none;
+  margin-left: 35%;
+  border-radius: 5px;
+  border: 0;
+  margin-left: 22%;
+}
+
+#dom {
+  margin: 10px 10px 10px 340px;
+}
+
+a {
+  margin-left: 45%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.button {
+  display: inline-block; /* Строчно-блочный элемент */
+  background: #6a7279; /* Серый цвет фона */
+  color: #fff; /* Белый цвет текста */
+  padding: 7px 15px; /* Поля вокруг текста */
+  text-decoration: none; /* Убираем подчёркивание */
+  border-radius: 5px; /* Скругляем уголки */
+  margin-left: 830px;
+  margin-bottom: 10px;
+}
